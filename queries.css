@@ -1,0 +1,135 @@
+
+
+
+
+
+
+/* for big tablet 1200px*/
+@media only screen and (max-width: 1200px) {
+   
+    .Hero-text-box
+    {
+        width: 100%;
+        padding: 0 2%;
+         top:50%;
+        left:50%;
+    }
+    .row
+    {    width: 100%;
+        padding: 0 2%;
+        height: auto;
+    }
+     .section-form .col {
+        margin-bottom: 15px;
+    }
+    
+}
+
+/* for small phone to big tablet  768 t0 1023*/
+@media only screen and (max-width: 1023px) {
+        .long-copy{
+  
+                    width: 80%;
+                    margin-left:10%;
+    
+                }
+                body{font-size: 18px;}
+                section{padding: 60px 0;}
+                .step-box{margin-top: 10px;}
+                .step-box:last-child{margin: 10px;}
+                .work-step{margin-bottom: 40px;}
+                .work-step:last-of-type{margin-bottom: 60px;}
+                .app-screen{width: 50%;}
+                .icon-class{
+                    width:15px;
+                    margin-right: 2px;
+                }
+                .city-feature{font-size: 90%;}
+                .plan-box{
+                    width:100%;
+                    margin-left: 0%;
+                }
+                .plan-price{font-size: 250%;}
+                .contact-form{width: 80%;}
+
+ 
+}
+/* for small phone to small tablet  481 t0 767px*/
+@media only screen and (max-width: 767px) {
+    body{font-size: 16px;}
+    section{padding: 30px 0px;}
+    .row,
+    .Hero-text-box{padding: 0 4%;}
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .main-nav{display: none;}
+    .app-screen{width: 40%;}
+    .step-box:first-child{text-align: center;}
+    .work-step div{
+        height: 30px;
+        width:30px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 100%;
+    }
+    .work-step{margin-bottom: 20px;}
+     .work-step:last-of-type{margin-bottom: 20px;}
+    .social-link{
+    list-style: none;
+    float:left;
+}
+ 
+}
+
+
+/* for small phone 0 t0 480px*/
+@media only screen and (max-width: 480px) {
+    section{padding: 25px 0;}
+    .contact-form{width:100%;}
+    .meal-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    height: auto;
+}
+    .row,
+    .Hero-text-box{padding: 0 4%;}
+    .col{
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+   .work-step div{
+        height: 20px;
+        width:20px;
+        margin-right: 5px;
+        padding: 2px;
+        font-size: 60%;
+        
+    }
+    .section-cities{
+         position: relative;
+         width: 100%;
+        height: auto; /* or fixed height */
+        overflow: hidden; /* prevent image from going outside */
+    }
+    .section-testimonials{
+        padding-top: 50px;
+        background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)) , url('./image/Fast-Food-Restaurants\ \(1\).jpg');
+        background-size: cover;
+        color: #fff;
+        background-attachment: fixed;
+        margin-top: 50px;
+        background-position: center;
+     }
+     footer{
+    background-color: #333;
+    font-size: 60%;
+    padding: 30px;
+}
+     .social-link{
+    list-style: none;
+    float:left;
+}
+}
